@@ -1,0 +1,29 @@
+.wrapper {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    height: 300px;
+    width: 25%;
+    border: solid 2px black;
+}
+
+@media (max-width: 992px) {
+    .box {
+        width: 100%;
+        max-width: 50%;
+        box-sizing: border-box;
+    }
+
+    .wrapper {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 525px) {
+    
+}
